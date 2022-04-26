@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TestingFeatures</string>
+    <string name="big_files">Большие файлы</string>
+    <string name="delete">Удалить</string>
+    <string name="download_files">Згрузка файлов</string>
+    <string name="not_found">Файлы больше 50 MB не найдены</string>
+</resources>
