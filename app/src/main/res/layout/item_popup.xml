@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="@dimen/margin_s"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:translationZ="10dp"
+    android:background="@color/purple_200">
+
+    <TextView
+        android:id="@+id/tv_favorite"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/margin_s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Оцените приложение"
+        android:textColor="@color/black"
+        android:textSize="22sp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_later"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/opacity"
+        app:layout_constraintEnd_toStartOf="@id/btn_ok"
+        app:layout_constraintTop_toBottomOf="@id/tv_favorite"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/margin_s"
+        android:text="Позже"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_ok"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/opacity"
+        app:layout_constraintTop_toBottomOf="@id/tv_favorite"
+        app:layout_constraintStart_toEndOf="@id/btn_later"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/margin_s"
+        android:text="Оценить"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
