@@ -4,4 +4,7 @@
     <string name="delete">Удалить</string>
     <string name="download_files">Згрузка файлов</string>
     <string name="not_found">Файлы больше 50 MB не найдены</string>
+    <string name="boost">Boost</string>
+    <string name="clean">Clean</string>
+    <string name="messengers">Messengers</string>
 </resources>

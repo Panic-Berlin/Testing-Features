@@ -1,0 +1,42 @@
+<shortcuts xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="boost"
+        android:enabled="true"
+        android:shortcutShortLabel="@string/boost"
+        android:icon="@drawable/ic_boost"
+        android:shortcutLongLabel="@string/boost"
+        tools:targetApi="n_mr1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.exemple.testingfeatures"
+            android:targetClass="com.exemple.testingfeatures.MainActivity" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="clean"
+        android:enabled="true"
+        android:shortcutShortLabel="@string/clean"
+        android:icon="@drawable/ic_clean"
+        android:shortcutLongLabel="@string/clean"
+        tools:targetApi="n_mr1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.exemple.testingfeatures"
+            android:targetClass="com.exemple.testingfeatures.MainActivity" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="messenger"
+        android:enabled="true"
+        android:shortcutShortLabel="@string/messengers"
+        android:icon="@drawable/ic_messenger"
+        android:shortcutLongLabel="@string/messengers"
+        tools:targetApi="n_mr1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.exemple.testingfeatures"
+            android:targetClass="com.exemple.testingfeatures.MainActivity" />
+    </shortcut>
+</shortcuts>
