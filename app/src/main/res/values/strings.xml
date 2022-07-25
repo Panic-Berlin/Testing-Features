@@ -7,4 +7,6 @@
     <string name="boost">Boost</string>
     <string name="clean">Clean</string>
     <string name="messengers">Messengers</string>
+    <string name="cool_down">Cool Down</string>
+    <string name="cool">Охлаждение</string>
 </resources>

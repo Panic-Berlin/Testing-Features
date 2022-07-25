@@ -31,6 +31,9 @@ class MenuFragment : Fragment(R.layout.fragment_menu) {
         viewBinding.btnFiles.setOnClickListener {
             findNavController().navigate(R.id.action_menuFragment_to_bigFilesSplashFragment)
         }
+        viewBinding.btnCpu.setOnClickListener {
+            findNavController().navigate(R.id.action_menuFragment_to_coolDownFragment)
+        }
         viewBinding.btnPopup.setOnClickListener {
             val inflater =
                 requireActivity().getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater

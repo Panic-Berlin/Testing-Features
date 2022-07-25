@@ -22,6 +22,9 @@
         <action
             android:id="@+id/action_menuFragment_to_bigFilesSplashFragment"
             app:destination="@id/bigFilesSplashFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_coolDownFragment"
+            app:destination="@id/coolDownFragment" />
     </fragment>
     <fragment
         android:id="@+id/bigFilesSplashFragment"
@@ -43,4 +46,9 @@
             android:id="@+id/action_cleanSplash_to_bigFilesFragmentDone"
             app:destination="@id/bigFilesFragmentDone" />
     </fragment>
+    <fragment
+        android:id="@+id/coolDownFragment"
+        android:name="com.exemple.testingfeatures.features.cooldown.CoolDownFragment"
+        android:label="CoolDownFragment"
+        tools:layout="@layout/fragment_cpu"/>
 </navigation>
